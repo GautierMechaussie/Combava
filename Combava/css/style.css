@@ -1,0 +1,423 @@
+@font-face {
+ font-family: "CoveredByYourGrace";			/* À justifier !!! */
+ src: url("../polices/CoveredByYourGrace.ttf") format("truetype");
+}
+
+@media screen and (min-width: 768px){
+    .icon{
+        display:none ;
+    }
+    body{
+		background-color: #FFFF9F; /* À justfier */
+		margin : 0px;
+		width: 100%;
+		font-size: 20px;
+		font-family: "Arial", sans-serif;
+	}
+
+	header{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	h1{
+		padding-right: 50px;
+		font-size: 50px;
+		font-family: "CoveredByYourGrace", "Arial", sans-serif;
+
+	}
+
+	header, footer{
+		background-color: yellow;
+	}
+
+	header > img{
+		width: 10%;
+		height: 10%;
+	}
+
+	p, h2{
+		padding-left: 8px;
+		padding-right: 8px;
+	}
+
+    nav{
+        border: 1px solid black;
+        background-color: black;
+    }
+
+    nav > ul{
+    	display: flex;
+    	justify-content: space-around;
+        list-style-type: none;
+        margin: 0px;
+        padding: 10px 0px;
+    }
+
+    nav > ul >li{
+        font-size: 28px;
+        font-family: "CoveredByYourGrace", "Arial", sans-serif;
+    }
+
+    nav > ul > li > a{
+    	color: white;
+    	text-decoration: none;
+    }
+
+    nav > ul > li > a:hover {
+ 		color: yellow;
+    }
+
+    nav > ul > li > a:focus {
+ 		color: yellow;
+    }
+
+    figure{
+    	margin: 0px;
+    	display: inline-block;
+    	position: relative;
+    }
+
+    figcaption{
+    	background-color: rgb(0, 0, 0, 0.5);
+    	text-align: center;
+    	color: white;
+    	position: absolute;
+    	top: 0px;
+    	bottom: 3px;
+
+    }
+
+    figcaption > p > a{
+    	color: yellow;
+    }
+
+    figcaption > p > a:hover {
+ 		color: blue;
+    }
+
+    figcaption > p > a:focus {
+ 		color: lime;
+    }
+
+    #part3{
+    	display: flex;
+    	flex-direction:column;
+    }
+
+    article > iframe{
+   	margin-right: auto;
+    margin-left: auto;
+    border: none;
+	}
+
+    section > h2{
+    	font-size: 18px;
+    	text-align: center;
+    	border-top: 3px solid black;
+    	border-bottom: 3px solid black;
+    }
+
+    section > p{
+    	display: inline-block;
+    	padding-right: 120px;
+    	margin-left: 150px;
+    }
+
+    h2{
+    	font-size: 28px;
+    }
+    
+    legend{
+    	font-size: 20px;
+    	font-weight: bold;
+    }
+
+    fieldset{
+    	border: none;
+    }
+
+    form > fieldset > label, input {
+    	display: flex;
+    	flex-direction: column;
+    }
+
+    label[for="case"], input[type="checkbox"]{
+    	display: inline-block;
+    }
+
+    input[type="checkbox"]{
+    	padding: 50px;
+    }
+
+    input[type="submit"]{
+    	margin: auto;
+    	margin-top: 20px;
+    	padding: 10px;
+    }
+
+    input[type="submit"]:focus{
+    	border: 1px solid cyan;
+    	background-color: white;
+    }
+
+    figure > img{
+    	width: 100%;
+    }
+
+    footer{
+    	display: flex;
+    	border-top: solid black 1px;
+    	flex-direction: column;
+    	align-items: center;
+    	font-size: 16px;
+    	height: 0%;
+    }
+
+    #logo{
+    	display: flex;
+    	justify-content: space-around;
+    }
+
+    #logo > img{
+    	width: 8%; /* Logo twitter a remplacé*/
+    	height: 8%;
+    }
+
+    section{  
+        margin: auto;
+        width:70%;
+        background-color: #ffffe0;
+    }
+
+    article{
+    	padding-bottom: 30px;
+    }
+
+    #part2,  #part2 h2 p{
+    	display: flex;
+    }
+
+    #part2 > img{
+    	width: 60%;
+    	height:600px;
+    }
+
+    #part4,  #part4 h2 p form{
+    	display: flex;
+    }
+
+    #part4 > img{
+    	width: 50%;
+    	height:600px;
+    }
+
+    #part3, #poll{
+        clear: both;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    #menulinks {
+        display: none;
+    }
+
+    .icon {
+        color: white;
+        padding: 37px 37px;
+        text-decoration: none;
+        font-size: 100%;
+        display: block;
+        background-color: black;
+    }
+
+    #menulinks > li > a{
+    	color: white;
+    	text-decoration: none;
+    	font-family: "CoveredByYourGrace", "Arial", sans-serif;
+    }
+
+    #menulinks > li > a:focus, #menulinks > li > a:hover{
+    	color: yellow;
+    }
+
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    h1{
+        padding-right: 50px;
+        font-size: 36px;
+        font-family: "CoveredByYourGrace", "Arial", sans-serif;
+
+    }
+
+	body{
+		background-color: #FFFF9F;
+		margin : 0px;
+		width: 100%;
+		font-size: 19px;
+		font-family: "Arial";
+	}
+
+	header, footer{
+		background-color: yellow;
+	}
+
+	header > img{
+		width: 10%;
+	}
+
+	p, h2{
+		padding-left: 8px;
+		padding-right: 8px;
+	}
+
+    nav{
+        border: 1px solid black;
+        background-color: black;
+    }
+
+    nav > ul{
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+
+    }
+
+    nav > ul >li{
+        display: vertical-block;
+        border-right: 1px solid black;
+        padding: 10px 20px;
+
+    }
+
+     figure{
+    	margin: 0px;
+    	display: inline-block;
+    	position: relative;
+    }
+
+    figure > img{
+    	height: 300px;
+    }
+
+    figcaption{
+    	background-color: rgb(0, 0, 0, 0.5);
+    	text-align: center;
+    	color: white;
+    	position: absolute;
+    	top: 0px;
+    	bottom:5px;
+
+    }
+
+    figcaption > p{
+    	font-size: 18px;
+    	margin: 8px 0px;
+
+    }
+
+    figcaption > h2{
+    	margin: 5px 0px;
+    	font-size: 20px;
+    }
+
+    iframe{
+    	width: 100%;
+        border: none;
+    }
+
+    section > h2{
+    	font-size: 18px;
+    	border-top: 3px solid black;
+    	border-bottom: 3px solid black;
+    }
+
+    #part2 > img{
+    	display: block;
+    	margin: auto;
+    }
+
+    #part4 > img{
+    	display: none;
+    }
+
+    section > p{
+    	font-size: 16px;
+    }
+
+    h2{
+    	font-size: 30px;
+    }
+
+    legend{
+    	font-size: 20px;
+    	font-weight: bold;
+    }
+
+	fieldset{
+    	border: none;
+    }
+
+    form > fieldset > label, form >fieldset > input{
+    	display: flex;
+    	flex-direction: column;
+    }
+
+    label[for="case"], input[type="checkbox"]{
+    	display: inline-block;
+    }
+
+    label[for="département"]{
+    	font-size: 18px;
+    }
+
+    input[type="checkbox"]{
+    	padding: 50px;
+    }
+
+    input{
+    	padding: 10px;
+    }
+
+    select{
+    	padding: 10px;
+    }
+
+    input[type="submit"]{
+    	margin: auto;
+    	margin-top: 20px;
+    	padding: 10px;
+    }
+
+    img{
+    	width: 100%;
+    }
+
+    section > article > img{
+    	width: 50%;
+    }
+
+    footer{
+    	display: flex;
+    	border-top: solid black 1px;
+    	flex-direction: column;
+    	align-items: center;
+    	font-size: 20px;
+    }
+
+    #logo{
+    	display: flex;
+    	justify-content: space-around;
+    }
+
+    #logo > img{
+    	width: 12%; /* Logo twitter a remplacé*/
+    	height: 12%;
+    }
+}

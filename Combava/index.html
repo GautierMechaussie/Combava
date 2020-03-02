@@ -1,0 +1,136 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="js/JVSC.js"></script>
+        <title>Combava - David's Lemonade</title>
+
+</head>
+
+<body>
+    <div id="page">
+    
+        <header>
+        	<img src="media/images/logoDavids.png" alt="Logo David's Lemonade"/>
+        	<h1>Combava</h1>
+        	<a class="icon" href="javascript:void(0);" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+        </header>
+        <nav>
+            <ul id="menulinks">
+                <li><a title='Accédez à la rubrique "Qui somme-nous ?"' href="#part1">Qui sommes-nous ?</a></li>
+                <li><a title='Accédez à la rubrique "La citronnade"' href="#part2">La citronnade</a></li>
+                <li><a title='Accédez à la rubrique "Nos événements"' href="#part3">Nos événements</a></li>
+                <li><a title='Accédez à la rubrique "Comment y participer ?"' href="#part4">Comment y participer ?</a></li>
+            </ul>
+
+
+        </nav>  
+
+        <section>
+            <article id="part1">
+
+            	<figure>
+	            	<img src="media/images/fruitfond.jpg" alt="Un fond avec des fruits sur une table"/>
+	            	<figcaption>
+	            		<h2>Qui sommes-nous ?</h2>
+	            		<p>Combava est une association qui confectionne de délicieuses citronnades en regroupant savoir-faire et technique. Afin de vous proposer les meilleures citronnades, nous sommes en partenariat avec de nombreux producteurs indépendants d'agrumes du sud de la France, qui nous fournissent des citrons gorgés de soleil nécessaires à la confection.
+                            Si vous voulez en savoir plus, n'hésitez pas à cliquer <a title="Accédez au site officiel de Combava" href="http://www.combava.com/" >ici</a>, pour découvrir le site officiel de l'association.
+	            	</figcaption>
+            	</figure>
+            </article>
+
+            <article id="part2">
+
+            	<div>
+            		<h2>La citronnade</h2>
+
+            		<p>La citronnade est une boisson mêlant sanité et rafraichissement tout en mettant en avant le goût unique des différents agrumes frais issus d'une production locale. Notre citronnade est faite avec 100% de citron bio, de l'eau et rien d'autres. Alors venez participer à nos évènements pour la déguster, elle vous laissera un doux picotement sur la langue et un sourire sur le visage !</p>
+
+            	</div>
+
+            	<img src="media/images/citronnier.jpg" alt="Citronnier"/>
+     	
+            	
+            </article>
+            
+            <article id="part3">
+            	<h2>Nos événements</h2>
+
+            	<p>Dans le but de promouvoir l'association, Combava organise des dégustations de citronnade privées à travers toute la France. Alors n'hésitez pas, partagez l'évènement ou rejoignez nous durant ces évènements.</p>
+
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2709.999354945872!2d5.941575714947774!3d47.216594922831845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478d66ab337a26a1%3A0xf62a3a0e0f796687!2sL&#39;Eau+Vive+Besan%C3%A7on!5e0!3m2!1sfr!2sfr!4v1557695274177!5m2!1sfr!2sfr" width="600" height="450" style="border:0" allowfullscreen></iframe>
+
+            </article>
+           
+            <article id="part4">
+
+                <img src="media/images/jus.jpeg" alt="Jus de citron"/>
+
+                <div>
+            		<h2>Comment y participer ?</h2>
+
+            		<p>Vous voulez participer ? L'inscription est simple comme bonjour, vous remplissez le formulaire ci-dessous en choisissant le lieu de l'évènement que vous rejoindrez.</p>
+
+					<form id="poll" action="#" method="get">
+	        			<fieldset>
+			            	<legend>Formulaire d'inscription</legend>  
+			                <label for="Nom"> Nom :<input id="Nom" name="Nom" type="text" size="25" placeholder="Devaux" required></label>
+			                
+			                     
+			                <label for="Prenom">Prénom :<input id="Prenom" name="Prenom" type="text" size="25" placeholder="Jean" required></label> 
+			                
+			                
+			                <label for="Mail">Mail :<input id="Mail" name="Mail" type="email" size="40" placeholder="jeandevaux@gmail.com" required></label>
+			                
+			               
+			                <label for="Tel">Téléphone :<input id="Tel" name="Tel" type="tel" size="10" placeholder="07xxxxxxxx" required></label>    
+			                
+			                      
+			                <label for="département">Je souhaite participer à l'événement de : 
+				                <select id="département" multiple required>
+				                    <option value="1">L'eau Vive Besançon</option>
+				                    <option value="2">Bio-Rennes</option>
+				                    <option value="3">Biocoop Saint-Junien</option>
+				                    <option value="4">Artisans Du Monde Tourcoing</option>
+				                    <option value="5">AMAP Toulouse</option>
+				                    <option value="6">Canal Bio Paris</option>
+				                    <option value="7">Bio c' Bon Nancy</option>
+				                    <option value="8">AMAP Le Goût Nature Bourg-les-Valence</option>
+				                </select>
+			            	</label>
+			                
+			                    
+			                <label for="case">En cochant cette case, j'accepte de recevoir des informations par mail.<input id="case" name="case" type="checkbox" value="ok"/></label>      
+			            
+			                <input type="submit" value="Confirmer">
+
+	        			</fieldset>
+					</form>
+				</div>
+            </article>
+
+            <h2>Un problème ? Besoin d'aide ? Contactez-nous !</h2>
+            <p>Mail de contact : Combava@XXXX.com</p>
+        	<p>Tel de contact : XX XX XX XX XX</p>
+        </section>
+        <footer>
+        	<p>Année de mise en service</p>
+
+        	<div id = "logo">
+  		      	<img src="media/images/insta.png" alt="Logo d'Instagram"/>
+        		<img src="media/images/fb.png" alt="Logo de Facebook"/>
+        		<img src="media/images/twi.png" alt="Logo de Twitter"/>
+        	</div>
+
+        	<p>Copyright</p>
+        </footer>
+        
+    </div>
+</body>
+</html>
